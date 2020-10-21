@@ -1,0 +1,261 @@
+
+#div1{
+    width:100vw;
+    height:30vh;
+    /*/border:1px solid black;/*/
+    background-image:linear-gradient(90deg,pink 40%,cyan);
+}
+h1{
+    text-align:center;
+    color:white;
+    letter-spacing:4px;
+    position: relative;
+    font-weight:900 ;
+}
+#count{
+    position: absolute;
+    left:10%;
+    font-weight:900 ;
+    top:19%;
+}
+#enter{
+    position: absolute;
+    right:5%;
+    top:19%;
+
+}
+#div2{
+    width:75vw;
+    background-color:black;
+    height:30vh;
+    margin-top:30px;
+    position:relative;
+    left:12.5%;
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    justify-content: center;
+    /*justify-content: space-between;*/
+}
+
+
+#div3{
+/*display:inline-block;*/
+/*margin-right: 4px;*/
+
+	height:25%;
+	width:5%;
+	overflow: hidden;
+	position:relative;
+	/*left:55%;*/
+	top:35%;
+   /*/background-color:whitesmoke;/*/
+}
+
+
+.curr{
+   height:100%;
+	width:100%;
+     background-color:whitesmoke;
+     margin-top:1px;
+     font-size:40px;
+   text-align: center;
+   font-weight: bold;
+border:2px solid black;
+
+}
+.next {
+	 position: absolute;
+	 height:100%;
+	width:100%;
+   top:100%;
+  margin:1px;
+     font-size:40px;
+   text-align: center;
+   font-weight: bold;
+   background-color:whitesmoke;
+   border-top:2px solid black;
+}
+/*display:inline-block;*/
+/*display:inline-block;*/
+#div4{
+/*display:inline-block;*/
+margin-right:8px;
+
+	height:25%;
+	width:5%;
+	overflow:hidden;
+	position:relative;
+	/*left:45%;*/
+	top:35%;
+
+}
+.curr1{
+	 height:100%;
+	width:100%;
+     background-color:whitesmoke;
+     margin-top:1px;
+     font-size:40px;
+   text-align: center;
+
+   font-weight: bold;
+border:2px solid black;
+}
+.next1{
+	 position: absolute;
+	 height:100%;
+	width:100%;
+   top:100%;
+  margin:1px;
+     font-size:40px;
+   text-align: center;
+   font-weight: bold;
+   background-color:whitesmoke;
+   border-top:2px solid black;
+}
+#div5{margin-right:8px;
+	/*display:inline-block;*/
+height:25%;
+	width:5%;
+	overflow: hidden;
+	position:relative;
+	/*left:35%;*/
+	top:35%
+}
+.curr2{
+	height:100%;
+	width:100%;
+     background-color:whitesmoke;
+     margin-top:1px;
+     font-size:40px;
+   text-align: center;
+   
+   font-weight: bold;
+border:2px solid black;
+
+}
+.next2{
+ position: absolute;
+	 height:100%;
+	width:100%;
+   top:100%;
+  margin:1px;
+     font-size:40px;
+   text-align: center;
+   font-weight: bold;
+   background-color:whitesmoke;
+   border-top:2px solid black;
+
+}
+#div6{
+	margin-right:8px;
+	height:25%;
+	width:5%;
+	overflow:hidden;
+	position:relative;
+	/*left:25%;*/
+	top:35%;
+/*display:inline-block;*/
+
+}
+.curr3{
+	height:100%;
+	width:100%;
+     background-color:whitesmoke;
+     margin-top:1px;
+     font-size:40px;
+   text-align: center;
+   
+   font-weight: bold;
+border:2px solid 
+}
+.next3{
+ position: absolute;
+	 height:100%;
+	width:100%;
+   top:100%;
+  margin:1px;
+     font-size:40px;
+   text-align: center;
+   font-weight: bold;
+   background-color:whitesmoke;
+   border-top:2px solid black;
+
+}
+#div7{
+	margin-right:8px;
+
+	height:25%;
+	width:5%;
+	overflow: hidden;
+	position:relative;
+	/*left:15%;*/
+	top:35%;
+/*display:inline-block;*/
+
+}
+.curr4{height:100%;
+	width:100%;
+     background-color:whitesmoke;
+     margin-top:1px;
+     font-size:40px;
+   text-align: center;
+   
+   font-weight: bold;
+border:2px solid 
+}
+.next4{
+ position: absolute;
+	 height:100%;
+	width:100%;
+   top:100%;
+  margin:1px;
+     font-size:40px;
+   text-align: center;
+   font-weight: bold;
+   background-color:whitesmoke;
+   border-top:2px solid black;
+
+}
+.trans{
+  transition:all 0.5s;
+  top:0px;
+}
+@media screen and (max-width: 1400px)
+{
+#div3,#div4,#div5,#div6,#div7{
+
+		height:25%;
+		width:7%;
+	}
+
+
+}
+
+@media screen and (max-width:900px)
+{
+	#div3,#div4,#div5,#div6,#div7{
+
+		height:25%;
+		width:10%;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	#div3,#div4,#div5,#div6,#div7{
+
+		height:23%;
+		width:10%;
+	}
+}
+/*media all and (max-width:400px)
+{
+	
+
+	#div3,#div4,#div5,#div6,#div7{
+
+		height:25%;
+		width:30%;
+	}
+}*/
